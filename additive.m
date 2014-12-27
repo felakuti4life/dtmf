@@ -1,4 +1,3 @@
-%problem 3
 function y = additive(f,Z,fs,dur,  name)
 %f: vector of frequencies in Hz
 %Z: vector of complex amplitudes A*exp(j*phi)
