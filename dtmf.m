@@ -11,7 +11,7 @@ freq_x = 0;
 freq_y = 0;
 cursor = 1;
 for n = 1:length(phone_number)
-    if n < 0 || n > 9
+    if phone_number(n) < 0 || phone_number(n) > 9
         'ERROR: invalid digit'
         return
     end
